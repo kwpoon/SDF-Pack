@@ -15,7 +15,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="dataset/our_oriented_dataset/FILENAME.ply/textured.obj" scale=".01 .01 .01"/>
+        <mesh filename="dataset/our_oriented_dataset/FILENAME.ply" scale=".01 .01 .01"/>
       </geometry>
     </visual>
     <collision>
