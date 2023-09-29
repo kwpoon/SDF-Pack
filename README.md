@@ -18,11 +18,31 @@ This repository is for our IEEE/RSJ International Conference on Intelligent Robo
 
 This repository contains the key codes for constructing the signed distance field (SDF) based on the container's top-down heightmap, the key implementation of the SDF-Minimization packing heuristics, and we keep updating it.
 
-## Todo List
+### Dataset Preparation
+We performed experiments on 1000 packing sequences of 96 types of objects collected from the YCB dataset and the Rutgers APC RGB-D dataset. Please download the processed dataset from [Google Drive](https://drive.google.com/file/d/1i2iPqhWSmGWMJC3wa9Y_fVD3HyuklFAO/view?usp=sharing). The object IDs forming the packing sequences can be found at `1000_packing_sequences_of_80_objects.npy`.
+```
+|-- 1000_packing_sequences_of_80_objects.npy
+|-- dataset  
+|   |-- our_oriented_dataset
+|   |   |-- 00000003_072-c_toy_airplane-processed.ply
+|   |   |...
+|   |-- our_oriented_decomp
+|   |   |-- 00000003_072-c_toy_airplane-processed.obj
+|   |   |...
+|   |-- our_oriented_occs
+|   |   |-- 00002777_cheezit_big_original-processed_objocc.npy
+|   |   |-- 00002777_cheezit_big_original-processed_depth.npy
+|   |   |...
+```
+
+### Key Implementation
+Our key implementation of the GPU-based SDF construction and the SDF-Minimization packing heuristics can be found at `v11_heuristic_packing.py`.
+
+### Todo List
 
 * [X] ~~SDF-Minimization heuristics~~
 * [X] ~~GPU-based SDF construction for the container~~
-* [ ] Experimental dataset
+* [X] ~~Experimental dataset~~
 * [ ] Data preprocessing for novel objects
 * [ ] Physical simulator
 
