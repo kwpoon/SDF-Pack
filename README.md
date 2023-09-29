@@ -9,6 +9,6 @@ This repository is for our IEEE/RSJ International Conference on Intelligent Robo
     <img style="border-radius: 0.3125em;
     width: 98%;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src=./figures/framework.pdf alt="">
+    src=./figures/framework.png alt="">
     <br>
 </div>
