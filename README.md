@@ -39,6 +39,14 @@ The subfolder `./dataset/our_oriented_dataset/` contains the object meshes that 
 ### Key Implementation
 Our key implementation of the GPU-based SDF construction and the SDF-Minimization packing heuristics can be found at `v11_heuristic_packing.py`.
 
+## Install
+
+* Environment
+  ```
+  conda env create -f environment.yml
+  conda activate sdf_pack
+  ```
+
 ### Todo List
 
 * [X] ~~SDF-Minimization heuristics~~
