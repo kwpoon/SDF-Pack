@@ -16,10 +16,10 @@ This repository is for our IEEE/RSJ International Conference on Intelligent Robo
     <br>
 </div>
 
-This repository contains the key codes for constructing the signed distance field (SDF) based on the container's top-down heightmap, the key implementation of the SDF-Minimization packing heuristics, and we keep updating it.
+The current version contains the key implementation for the signed distance field (SDF) construction given the container's top-down heightmap, the key implementation of the SDF-Minimization packing heuristics. We are still updating the repository.
 
 ### Dataset Preparation
-We performed experiments on 1000 packing sequences of 96 types of objects collected from the YCB dataset and the Rutgers APC RGB-D dataset. Please download the processed dataset from [Google Drive](https://drive.google.com/file/d/1i2iPqhWSmGWMJC3wa9Y_fVD3HyuklFAO/view?usp=sharing). The object IDs forming the packing sequences can be found at `1000_packing_sequences_of_80_objects.npy`.
+We performed experiments on 1000 packing sequences of 96 types of objects collected from the YCB dataset and the Rutgers APC RGB-D dataset. Please download the processed dataset from [Google Drive](https://drive.google.com/file/d/1i2iPqhWSmGWMJC3wa9Y_fVD3HyuklFAO/view?usp=sharing) and extract the files in the folder `./dataset/`. The object IDs forming the packing sequences can be found at `1000_packing_sequences_of_80_objects.npy`.
 ```
 |-- 1000_packing_sequences_of_80_objects.npy
 |-- dataset  
@@ -34,6 +34,7 @@ We performed experiments on 1000 packing sequences of 96 types of objects collec
 |   |   |-- 00002777_cheezit_big_original-processed_depth.npy
 |   |   |...
 ```
+The subfolder `./dataset/our_oriented_dataset/` contains the object meshes that are simplified and processed to be watertight. These meshes are further processed through V-HACD convex decomposition for collision simulation, and the processed collision models are presented in the folder `./dataset/our_oriented_decomp/`. We also provide the voxelization results of the objects in `./dataset/our_oriented_occs/`. 
 
 ### Key Implementation
 Our key implementation of the GPU-based SDF construction and the SDF-Minimization packing heuristics can be found at `v11_heuristic_packing.py`.
