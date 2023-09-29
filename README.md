@@ -6,7 +6,7 @@
 
 
 ### Introduction
-This repository is for our IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2023 paper 'SDF-Pack: Towards Compact Bin Packing with Signed-Distance-Field Minimization'. In this paper, we present a novel packing method named SDF-Pack which leverages the truncated signed distance field to model the container’s geometric condition. We also developed the SDF-minimization heuristic to effectively evaluate spatial compactness and find compact object placements. 
+This repository is for our IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2023 paper *'SDF-Pack: Towards Compact Bin Packing with Signed-Distance-Field Minimization'*. In this paper, we present a novel packing method named SDF-Pack which leverages the truncated signed distance field to model the container’s geometric condition. We also developed the SDF-minimization heuristic to effectively evaluate spatial compactness and find compact object placements. 
 
 <div style="text-align: center;">
     <img style="border-radius: 0.3125em;
