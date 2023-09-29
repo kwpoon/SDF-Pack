@@ -179,7 +179,7 @@ def pack_an_object(model, env, shape_codes, best_obj_idx, best_r_id, best_i, bes
 	model.obj_pos[best_obj_idx][0] = -model.x_max/2 - tmp_obj1.bounds[0][0] + best_i*model.voxel_resolution*5
 	model.obj_pos[best_obj_idx][1] = -model.y_max/2 - tmp_obj1.bounds[0][1] + best_j*model.voxel_resolution*5
 	model.obj_pos[best_obj_idx][2] = -model.z_max - tmp_obj1.bounds[0][2] + best_k*model.voxel_resolution
-	obj_filename = os.path.join('./autostore/models/our_oriented_decomp/', np.sort(os.listdir('./autostore/models/our_oriented_dataset/'))[shape_codes[best_obj_idx]])
+	obj_filename = os.path.join('./dataset/our_oriented_decomp/', np.sort(os.listdir('./dataset/our_oriented_dataset/'))[shape_codes[best_obj_idx]])
 	obj_file_basename = os.path.basename(obj_filename)
 	model.obj_rot[best_obj_idx] = best_r_id * np.pi / 4
 	obs, reward, _, info = env.insert_a_packing_object(obj_file_basename[:-4], \
