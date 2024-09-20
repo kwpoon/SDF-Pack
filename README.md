@@ -46,11 +46,7 @@ Our key implementation of the GPU-based SDF construction and the SDF-Minimizatio
   conda activate sdf_pack
   ```
 
-### Todo List
+### Recent Updates
 
-* [X] ~~SDF-Minimization heuristics~~
-* [X] ~~GPU-based SDF construction for the container~~
-* [X] ~~Experimental dataset~~
-* [ ] Data preprocessing for novel objects
-* [ ] Physical simulator
+Please refer to our updated version [PPN-Pack](https://github.com/kwpoon/PPN-Pack)
 
