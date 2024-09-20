@@ -1,4 +1,4 @@
-<h2 align = "center"> [IROS 2023] SDF-Pack: Towards Compact Bin Packing with Signed-Distance-Field Minimization</center></h2>
+<h2 align = "center"> SDF-Pack: Towards Compact Bin Packing with Signed-Distance-Field Minimization</center></h2>
 <h4 align = "center">Jia-Hui Pan<sup>1</sup>, Ka-Hei Hui<sup>1</sup>, Xiaojie Gao<sup>1,3</sup>, Shize Zhu<sup>3</sup>, Yun-Hui Liu<sup>2,3</sup>, Pheng-Ann Heng<sup>1</sup> and Chi-Wing Fu<sup>1</sup></h4>
 <h4 align = "center"> <sup>1</sup>Department of Computer Science and Engineering</center>, <sup>2</sup>Department of Mechanical and Automation Engineering, </h4>
 <h4 align = "center"> The Chinese University of Hong Kong.</center></h4>
